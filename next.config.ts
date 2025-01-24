@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true // Required for static export
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/my-portfolio' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/my-portfolio/' : ''
+  basePath: '/my-portfolio',
+  assetPrefix: '/my-portfolio/',
 }
 
 export default nextConfig;
