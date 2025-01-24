@@ -1,5 +1,6 @@
 import Image from "next/image";
 import localImage from "../../public/next.svg";
+import localImage2 from "../../public/vercel.svg";
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
           >
             <Image
               className="dark:invert"
-              src="/vercel.svg"
+              src={localImage2}
               alt="Vercel logomark"
               width={20}
               height={20}
